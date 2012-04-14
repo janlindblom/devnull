@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
+<script>
+var myString = "this is my string";
+
+function chal1(inputString) {
+    var len = inputString.length;
+    var result;
+    result = inputString.reverse();
+    return result;
+}
+
+function runChallenge() {
+    var reply = chal1(myString);
+    document.getElementById("main").innerHTML = reply;
+}
+</script>
+</head>
+<body>
+<div id="container">
+<header>
+<h1>Challenge 1</h1>
+</header>
+<div id="main">
+</div>
+<footer>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+function showField(a){for(var b=1;b<4;b++)document.getElementById("field"+b).style.display="none";var c=document.getElementById("field"+a);c.id==="field"+a&&(c.style.display="block")};
